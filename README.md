@@ -2,6 +2,7 @@
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/version-1.0.0-green.svg)](#)
+[![skills.sh](https://skills.sh/b/RealFelixWang/prompt-lint)](https://skills.sh/RealFelixWang/prompt-lint)
 
 一个基于 Claude Skill 的 Prompt 质量审计工具。通过 **55+ 条硬规则扫描** 和 **8 维度 LLM 深度分析**，在你花真金白银使用 Prompt 之前，先帮你看清它的问题。
 
@@ -45,16 +46,26 @@ prompt-lint 从 8 个维度对 Prompt 进行评分（每个维度 1-10 分）：
 
 ## 🚀 安装
 
-### 方式一：Claude.ai（推荐）
+### 方式一：skills.sh（推荐）
+
+一行命令安装到所有支持的 AI Agent：
+
+```bash
+npx skills add RealFelixWang/prompt-lint
+```
+
+支持 Claude Code、Cursor、Windsurf、Codex、GitHub Copilot 等 20+ Agent。
+
+### 方式二：Claude.ai
 
 1. 在 GitHub 上下载 prompt-lint 的 ZIP 包
 2. 打开 Claude.ai → 设置 → Skills
 3. 上传 ZIP 包即可使用
 
-### 方式二：Claude Code
+### 方式三：Claude Code（手动）
 
 ```bash
-git clone https://github.com/your-org/prompt-lint.git ~/.claude/skills/prompt-lint
+git clone https://github.com/RealFelixWang/prompt-lint.git ~/.claude/skills/prompt-lint
 ```
 
 安装后，在 Claude Code 中即可使用 `/prompt-lint` 命令。

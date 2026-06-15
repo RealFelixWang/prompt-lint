@@ -1,0 +1,13 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Prompt Engineering",
+      "description": "Prompt 质量评估和审计工具",
+      "skills": [
+        "prompt-lint"
+      ]
+    }
+  ]
+}
